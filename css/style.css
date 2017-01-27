@@ -1,0 +1,50 @@
+section {
+  border-top: 2px solid teal; }
+
+body {
+  background: rgba(205, 133, 63, 0.2); }
+
+.universar-children * {
+  color: #4f1717; }
+
+.ClassSelector {
+  color: #00643c; }
+
+#IdValue {
+  color: #00a5c8; }
+
+.html-code-container h3 {
+  margin: 0; }
+
+.html-code-container code {
+  letter-spacing: 1px; }
+
+.html-code-container .NumberLine {
+  width: 2em; }
+  .html-code-container .NumberLine ul {
+    background: green;
+    padding: 5px;
+    list-style: none; }
+    .html-code-container .NumberLine ul li {
+      background: yellow; }
+
+.css-code-container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.html-code-container,
+.css-code-container,
+.sintaxis-css {
+  background: rgba(64, 26, 32, 0.5);
+  width: 50%;
+  border-radius: 2px; }
+  .html-code-container h3,
+  .html-code-container code,
+  .css-code-container h3,
+  .css-code-container code,
+  .sintaxis-css h3,
+  .sintaxis-css code {
+    text-align: center;
+    display: block;
+    padding: 5px; }

@@ -1,0 +1,19 @@
+doctype html
+html
+	head
+		title Learning CSS
+		meta(name="viewport", content="width=device-width, initil-scale=1.0")
+		link(rel="stylesheet", href="css/style.css")
+	body
+		header.ed-container
+			.ed-item.s-80
+				include ../block/block-logo
+			.ed-item.s-20.cross-center.main-end
+				.nav-toggle#main-nav-toggle
+			.nav-container#nav-container
+				.ed-container
+					.ed-item
+						nav.main-nav#main-nav
+							include ../block/block-menu
+
+		block main
